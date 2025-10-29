@@ -5,7 +5,7 @@
 /// - Validate card numbers and IBANs using standard algorithms.
 /// - Access a list of all supported banks.
 /// - Display bank logos easily using the provided `BankInfoView` model.
-library iranian_banks;
+library;
 
 export 'src/bank_service.dart';
 export 'src/model/bank_view_model.dart';

@@ -1,13 +1,13 @@
 name: iranian_banks
 description: A Flutter package to detect Iranian banks from card or IBAN numbers and get information and verify.
-version: 1.2.0
+version: 1.2.1
 homepage: https://github.com/amirahadi/iranian_bank_list_flutter_package
 repository: https://github.com/amirahadi/iranian_bank_list_flutter_package
 issue_tracker: https://github.com/amirahadi/iranian_bank_list_flutter_package/issues
 
 ###
 # author: Amir Ahadi <amir.ahadi.dev@gmail.com>
-# 
+#
 # banks list json and images are adapted from:
 # https://github.com/masihgh/iranian-bank-list
 ###
@@ -20,12 +20,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^2.1.0
-  
+  flutter_svg: ^2.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   assets:
