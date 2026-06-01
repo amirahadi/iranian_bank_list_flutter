@@ -2,6 +2,33 @@
 
 All notable changes to this package will be documented here.
 
+## 2.0.0 - 2026-06-02
+
+### Added
+
+- Added example GIF media asset for documentation.
+- Added bank assets and dataset entries for `iran-venezuela`, `melal`, and `noor`.
+
+### Changed
+
+- Renamed the public `BankInfoView.secondaryColor` property to `BankInfoView.onPrimaryColor` for clearer color semantics.
+- Renamed the internal bank dataset color field from `secondary_color` to `onPrimary_color` to match the updated API naming.
+- Updated the README examples and API reference to use `onPrimaryColor`.
+- Updated tests to validate the renamed color property.
+
+### Fixed
+
+- Refreshed the Bank Melli SVG logo asset.
+
+### Breaking Changes
+
+- `BankInfoView.secondaryColor` has been removed.
+- Use `BankInfoView.onPrimaryColor` instead.
+
+### Migration
+
+- Replace `secondaryColor` usages with `onPrimaryColor`.
+
 ## [1.2.0] - 2025-05-28
 
 ### BREAKING

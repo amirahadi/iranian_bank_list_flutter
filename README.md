@@ -23,7 +23,7 @@ Add this to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  iranian_banks: ^1.2.0 # Replace with the latest version
+  iranian_banks: ^2.0.0 # Replace with the latest version
 ```
 
 Then, run `flutter pub get` in your terminal.
@@ -166,16 +166,16 @@ bool isValidIBAN = IranianBanks.verifyIBAN('IR850540102680010987654321'); // tru
 
 The functions return a nullable `BankInfoView` object with the following properties and methods:
 
-| Member         | Type                        | Description                                     |
-| :------------- | :-------------------------- | :---------------------------------------------- |
-| `name`         | `String`                    | The official English name of the bank.          |
-| `title`        | `String`                    | The official Persian title of the bank.         |
-| `logoPath`     | `String`                    | The asset path to the bank's logo.              |
-| `primaryColor` | `Color`                     | The primary brand color of the bank.            |
-| `lighterColor` | `Color`                     | A lighter shade of the primary color.           |
-| `darkerColor`  | `Color`                     | A darker shade of the primary color.            |
-| `onPrimaryColor`| `Color`                    | A color that's clearly legible when drawn on primary.|
-| `logoBuilder()`| `SvgPicture Function()`     | A method that returns an `SvgPicture` widget.   |
+| Member          | Type                        | Description                                            |
+| :-------------  | :-------------------------- | :----------------------------------------------------- |
+| `name`          | `String`                    | The official English name of the bank.                 |
+| `title`         | `String`                    | The official Persian title of the bank.                |
+| `logoPath`      | `String`                    | The asset path to the bank's logo.                     |
+| `primaryColor`  | `Color`                     | The primary brand color of the bank.                   |
+| `lighterColor`  | `Color`                     | A lighter shade of the primary color.                  |
+| `darkerColor`   | `Color`                     | A darker shade of the primary color.                   |
+| `onPrimaryColor`| `Color`                     | A color that's clearly legible when drawn on primary.  |
+| `logoBuilder()` | `SvgPicture Function()`     | A method that returns an `SvgPicture` widget.          |
 
 ## 🤝 Contributing
 

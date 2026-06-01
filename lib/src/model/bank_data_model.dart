@@ -53,11 +53,6 @@ class BankData {
 }
 
 /// A complete and corrected list of Iranian bank data.
-/// - Duplicates and conflicts have been resolved.
-/// - Merged banks (Ansar, Ghavvamin, Hekmat, Mehr Eghtesad) now point to Bank Sepah's data
-///   for consistency, while their card numbers are still recognized.
-/// - Data types and codes have been corrected.
-/// - The list is sorted alphabetically by bankTitle.
 const List<BankData> iranianBank = [
   // ... محتوای لیست بانک‌ها که قبلا اصلاح شد، اینجا قرار می‌گیرد ...
   // (من همان نسخه نهایی با Regex ساده را اینجا قرار داده‌ام)
@@ -567,5 +562,31 @@ const List<BankData> iranianBank = [
     cardRegex: r'^606256\d*$',
     ibanRegex: r'^IR\d{2}075\d*$',
     onPrimaryColor: '#ffffff',
+  ),
+  BankData(
+    cardNo: '581874',
+    bankName: 'iran-venezuela',
+    bankTitle: 'بانک ایران ونزوئلا',
+    bankLogo: './images/iran-venezuela.svg',
+    color: '#3437A1',
+    lighterColor: '#5C5FCE',
+    darkerColor: '#24276F',
+    iban: '050',
+    cardRegex: r'^581874\d*$',
+    ibanRegex: r'^IR\d{2}050\d*$',
+    onPrimaryColor: '#ffffff',
+  ),
+  BankData(
+    cardNo: '507677',
+    bankName: 'noor',
+    bankTitle: 'بانک نور',
+    bankLogo: './images/noor.svg',
+    color: '#11B8C7',
+    lighterColor: '#46D7E2',
+    darkerColor: '#0B7F88',
+    iban: '080',
+    cardRegex: r'^507677\d*$',
+    ibanRegex: r'^IR\d{2}080\d*$',
+    onPrimaryColor: '#000000',
   ),
 ];
