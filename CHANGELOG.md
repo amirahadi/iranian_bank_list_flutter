@@ -2,6 +2,14 @@
 
 All notable changes to this package will be documented here.
 
+## 2.1.0 - 2026-07-24
+
+### Fixed
+
+- Optimized large SVG logo assets to reduce the overall package size.
+- Reduced the size of oversized bundled logos such as Bank Melli, Sepah, and Tejarat.
+- Preserved the visual appearance of the optimized assets.
+
 ## 2.0.0 - 2026-06-02
 
 ### Added
